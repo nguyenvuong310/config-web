@@ -1,0 +1,13 @@
+namespace: vdt-final
+replicaCount: 1
+
+image:
+  repository: vuong676/listvdt-frontend-web
+  tag: v9
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 5173
+  targetPort: 5173
+  nodePort: 30911
