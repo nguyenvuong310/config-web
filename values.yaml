@@ -11,3 +11,6 @@ service:
   port: 3000
   targetPort: 3000
   nodePort: 30911
+
+env:
+  REACT_APP_BACKEND_API_URL: "http://192.168.1.29:30852/api"
