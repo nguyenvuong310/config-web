@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: vuong676/listvdt-frontend-web
-  tag: v9
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
